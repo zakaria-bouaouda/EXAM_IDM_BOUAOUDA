@@ -21,7 +21,7 @@ app.use(cors())
 // app.use(bodyparser.json());
 app.use('/api/vm',placesRoutes);
 // app.use('/api/users',userRoutes);
-app.listen(7000,()=>
+app.listen(PORT,()=>
 
 {
     console.log("running is done");
